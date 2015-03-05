@@ -1,0 +1,22 @@
+{
+  "name": "client",
+  "version": "0.0.0",
+  "homepage": "https://github.com/jeffreychan637/TweetsByLocation",
+  "authors": [
+    "Jeffrey Chan <email_placeholder>"
+  ],
+  "description": "A web application for finding tweets from Twitter based on location.",
+  "main": "index.html",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "normalize.css": "~3.0.2"
+  }
+}
