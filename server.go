@@ -14,8 +14,9 @@ func home(w http.ResponseWriter, r *http.Request) {
 	fmt.Printf("%s", r.URL.Path)
 	if r.URL.Path != "/" {
 		http.ServeFile(w, r, "client/views/error.html")
+	} else {
+		http.ServeFile(w, r, "client/views/index.html")
 	}
-	http.ServeFile(w, r, "client/views/index.html")
 
 }
 
