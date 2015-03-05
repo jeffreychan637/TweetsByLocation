@@ -21,9 +21,10 @@ paper-input-decorator /deep/ .unfocused-underline {
   background-color: white;
 }
 
-paper-input-decorator[focused] /deep/ .floating-label .label-text {
+paper-input-decorator[focused] /deep/ .floating-label,
+paper-input-decorator[focused] /deep/ .label-text {
   /* floating label color when the input is focused */
-  color: white;
+  color: white !important;
 }
 
 paper-input-decorator /deep/ .focused-underline {
