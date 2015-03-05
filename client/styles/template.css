@@ -1,6 +1,8 @@
 .main {
   background-color: #F8797C;
   color: white;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
 }
 
 .title {

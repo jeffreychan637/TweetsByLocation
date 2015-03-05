@@ -6,10 +6,11 @@
     <title>Tweets by Location</title>
     <meta name="description" content="Tweets by Location">
     <meta name="author" content="Jeffrey Chan">
-
+    <script src="client/bower_components/webcomponentsjs/webcomponents.min.js"></script>
     <link rel='stylesheet' type='text/css' href='http://fonts.googleapis.com/css?family=Open+Sans:700,400'>
     <link rel="stylesheet" href="client/bower_components/normalize.css/normalize.css">
     <link rel="stylesheet" href="client/styles/template.css">
+    <link rel="import" href="client/bower_components/paper-input/paper-input.html">
     <!--[if lt IE 9]>
       <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
@@ -17,5 +18,12 @@
 
   <body class="main">
     <h1 class="title">Tweets by Location</h1>
+    <paper-input-decorator label="Topic">
+      <input is="core-input">
+    </paper-input-decorator>
+    <paper-input-decorator label="Location">
+      <input is="core-input">
+    </paper-input-decorator>
+
   </body>
 </html>
